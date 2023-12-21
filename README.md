@@ -1,4 +1,5 @@
-# API Automation Framework - Hands-on with Open Weather endpoints
+# API Automation Framework
+- Using the public endpoints from Open Weather to showcase
 
 ## Constructed by:
 - **REST Assured**: REST services caller (http://rest-assured.io/)
@@ -11,7 +12,9 @@
 ## How to Run
  - Clone the project
  - Update your Open Weather **API key** in the environment YAML files ```/src/main/resources/environments/demo.yml```
- - Open terminal and execute the CLI: ```$mvn clean test -Dtestng.dtd.http=true -Denvironment=DEMO```
+ - Open terminal and execute the CLI: 
+   - ```$mvn clean test -Dtestng.dtd.http=true -Denvironment=DEMO```
+   - ```$mvn clean test -Dtestng.dtd.http=true -Denvironment=STAGE```
  - Open the Cucumber Extent Report at /target/cucumber-reports/report.html 
  
 ## Framework Functions Support:
