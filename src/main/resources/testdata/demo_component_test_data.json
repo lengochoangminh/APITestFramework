@@ -1,0 +1,9 @@
+{
+  "OpenWeatherMap": {
+    "name" : "Manchester",
+    "id": "2643123",
+    "timezone": "0",
+    "coord_lon": "-2.2374",
+    "coord_lat": "53.4809"
+  }
+}

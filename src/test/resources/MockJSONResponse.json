@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": -2.2374,
+    "lat": 53.4809
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 277.48,
+    "feels_like": 277.48,
+    "temp_min": 275.68,
+    "temp_max": 280.59,
+    "pressure": 1018,
+    "humidity": 89
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.03,
+    "deg": 0
+  },
+  "clouds": {
+    "all": 3
+  },
+  "dt": 1637469297,
+  "sys": {
+    "type": 2,
+    "id": 2013239,
+    "country": "GB",
+    "sunrise": 1637480743,
+    "sunset": 1637510659
+  },
+  "timezone": 0,
+  "id": 2643123,
+  "name": "Manchester",
+  "cod": 200
+}

@@ -1,0 +1,60 @@
+12-21-2023 11:31:19[INFO ] - [environment.EnvironmentHandler / <init>] - ******** INITIALIZING TEST ENVIRONMENT [STAGING] ********
+12-21-2023 11:31:19[INFO ] - [utilities.ConvertUtil / convertYmlFileToObject] - File path >>>> src/main/resources/environments/staging.yml
+
+12-21-2023 11:31:19[INFO ] - [utilities.ConvertUtil / convertJsonFileToObject] - File path >>>> src/main/resources/testdata/stage_component_test_data.json
+
+12-21-2023 11:31:19[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:19[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:19[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 404
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"cod":"404","message":"city not found"}
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 200
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09n"},{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":282.7,"feels_like":279.94,"temp_min":281.77,"temp_max":283.25,"pressure":1014,"humidity":94},"visibility":5000,"wind":{"speed":5.66,"deg":250},"clouds":{"all":100},"dt":1703132593,"sys":{"type":2,"id":2041230,"country":"FR","sunrise":1703144469,"sunset":1703174147},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 200
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"coord":{"lon":-2.2374,"lat":53.4809},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"base":"stations","main":{"temp":284.46,"feels_like":283.87,"temp_min":283.45,"temp_max":285.41,"pressure":1003,"humidity":85},"visibility":10000,"wind":{"speed":12.86,"deg":270},"rain":{"1h":0.21},"clouds":{"all":100},"dt":1703132593,"sys":{"type":2,"id":2013239,"country":"GB","sunrise":1703146964,"sunset":1703173854},"timezone":0,"id":2643123,"name":"Manchester","cod":200}
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 200
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"},{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09n"}],"base":"stations","main":{"temp":282.74,"feels_like":279.99,"temp_min":281.77,"temp_max":283.25,"pressure":1014,"humidity":93},"visibility":5000,"wind":{"speed":5.66,"deg":250},"clouds":{"all":100},"dt":1703132304,"sys":{"type":2,"id":2041230,"country":"FR","sunrise":1703144469,"sunset":1703174147},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 404
+12-21-2023 11:31:20[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"cod":"404","message":"city not found"}
+12-21-2023 11:31:29[INFO ] - [environment.EnvironmentHandler / <init>] - ******** INITIALIZING TEST ENVIRONMENT [DEMO] ********
+12-21-2023 11:31:29[INFO ] - [utilities.ConvertUtil / convertYmlFileToObject] - File path >>>> src/main/resources/environments/demo.yml
+
+12-21-2023 11:31:29[INFO ] - [utilities.ConvertUtil / convertJsonFileToObject] - File path >>>> src/main/resources/testdata/demo_component_test_data.json
+
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 404
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"cod":"404","message":"city not found"}
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 200
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"coord":{"lon":-2.2374,"lat":53.4809},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"base":"stations","main":{"temp":284.46,"feels_like":283.87,"temp_min":283.45,"temp_max":286.36,"pressure":1003,"humidity":85},"visibility":10000,"wind":{"speed":12.86,"deg":270},"rain":{"1h":0.21},"clouds":{"all":100},"dt":1703132518,"sys":{"type":2,"id":2013239,"country":"GB","sunrise":1703146964,"sunset":1703173854},"timezone":0,"id":2643123,"name":"Manchester","cod":200}
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 200
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"coord":{"lon":-2.2374,"lat":53.4809},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"base":"stations","main":{"temp":284.46,"feels_like":283.87,"temp_min":283.45,"temp_max":285.41,"pressure":1003,"humidity":85},"visibility":10000,"wind":{"speed":12.86,"deg":270},"rain":{"1h":0.21},"clouds":{"all":100},"dt":1703132593,"sys":{"type":2,"id":2013239,"country":"GB","sunrise":1703146964,"sunset":1703173854},"timezone":0,"id":2643123,"name":"Manchester","cod":200}
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:30[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:31[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 200
+12-21-2023 11:31:31[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"},{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09n"}],"base":"stations","main":{"temp":282.74,"feels_like":279.99,"temp_min":281.77,"temp_max":283.25,"pressure":1014,"humidity":93},"visibility":5000,"wind":{"speed":5.66,"deg":250},"clouds":{"all":100},"dt":1703132304,"sys":{"type":2,"id":2041230,"country":"FR","sunrise":1703144469,"sunset":1703174147},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+12-21-2023 11:31:31[INFO ] - [utilities.RequestUtil / showRequestInformation] - Sending a request with >>>>>>>>>
+12-21-2023 11:31:31[INFO ] - [utilities.RequestUtil / showRequestInformation] - Endpoint >>> http://api.openweathermap.org/data/2.5/weather
+12-21-2023 11:31:31[INFO ] - [utilities.RequestUtil / showRequestInformation] - Headers >>> [Content-Type=application/json]
+12-21-2023 11:31:31[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response status code >>> 404
+12-21-2023 11:31:31[INFO ] - [utilities.RequestUtil / showResponseInformation] - Response body >>> {"cod":"404","message":"city not found"}

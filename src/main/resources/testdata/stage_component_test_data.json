@@ -1,0 +1,9 @@
+{
+  "OpenWeatherMap": {
+    "name" : "Paris",
+    "id": "2988507",
+    "timezone": "3600",
+    "coord_lon": "2.3488",
+    "coord_lat": "48.8534"
+  }
+}

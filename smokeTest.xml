@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- Use the TestNG parallel execution if you want - Add parallel="classes" into Suite-->
+<suite name="Suite1">
+  <test name="API TEST CASES">
+    <classes>
+      <class name="runner.SearchCityContractRunner"/>
+      <class name="runner.SearchValidCityRunner"/>
+      <class name="runner.SearchInvalidCityRunner"/>
+      <class name="runner.SearchCityMockServiceRunner"/>
+    </classes>
+  </test>
+</suite>
